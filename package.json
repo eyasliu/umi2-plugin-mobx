@@ -1,0 +1,44 @@
+{
+  "name": "umi-plugin-mobx",
+  "version": "0.0.1-beta.4",
+  "description": "use mobx with umi@2.",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "globby": "^7.1.1",
+    "lodash.uniq": "^4.5.0",
+    "mobx": "^5.5.0",
+    "mobx-react": "^5.2.8",
+    "mobx-react-devtools": "^6.0.3",
+    "object-assign": "^4.1.1",
+    "path-is-root": "^0.1.0",
+    "path-to-regexp": "^1.7.0"
+  },
+  "scripts": {
+    "build": "umi-tools build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eyasliu/umi2-plugin-mobx"
+  },
+  "homepage": "https://github.com/eyasliu/umi2-plugin-mobx",
+  "authors": [
+    "eyasliu (https://github.com/eyasliu)"
+  ],
+  "bugs": {
+    "url": "https://github.com/eyasliu/umi2-plugin-mobx/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "lib",
+    "src",
+    "template"
+  ],
+  "umiTools": {
+    "browserFiles": [
+      "src/runtime.js"
+    ]
+  },
+  "devDependencies": {
+    "umi-tools": "^0.1.2"
+  }
+}
