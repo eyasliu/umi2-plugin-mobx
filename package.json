@@ -1,6 +1,6 @@
 {
-  "name": "umi-plugin-mobx",
-  "version": "0.0.1-beta.4",
+  "name": "umi2-plugin-mobx",
+  "version": "1.0.0",
   "description": "use mobx with umi@2.",
   "main": "./lib/index.js",
   "dependencies": {
